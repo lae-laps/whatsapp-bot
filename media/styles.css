@@ -1,0 +1,29 @@
+h1 {
+	font-size: 4.0rem;
+}
+
+a {
+	border: 6px solid #f00;
+}
+
+img {
+	width: 19%;
+	max-height: 400px;
+	border: 2px solid #282828;
+}
+
+audio {
+	width: 19.5%;
+}
+
+video {
+	width: 19%;
+	max-height: 400px;
+}
+
+video::-webkit-media-controls-volume-slider {
+	background-color: #f00;
+	padding-top: 0;
+	margin-top: 20px;
+	padding-bottom: 0;
+}
