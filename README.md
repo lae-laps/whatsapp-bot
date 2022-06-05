@@ -4,10 +4,10 @@ Bot runs on `node.js`
 
 ## How to Run
 
+ - Install `node.js` on the machine - Remember to install the latest version - use node repo
+ - Install `whatsap-web.js` library with `npm i whatsapp-web.js`
  - ```node main.js```
-
  - Copy QR code and run under `qrencode` - use `./qr` script
- 
  - Scan QR with whatsapp mobile as if connecting to whatsapp web
 
 ## Scripts
