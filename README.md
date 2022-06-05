@@ -14,6 +14,7 @@ Bot runs on `node.js`
 
  - Messages are saved to `messages.log` and media files are saved to `media/` directory
  - You can run `media/serve.py` for autoindexing of media files and then navigate `http://192.168.X.X:8000` to view media under browser, or run `updog`
+ - You can run `media/clean-videos.py` to delete all existing videos under `media/` directory if they are taking too much space and are not important
 
 ## Notes
 
