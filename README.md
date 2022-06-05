@@ -1,2 +1,20 @@
 # whatsapp-bot
-My whatsapp bot for message and info tracking
+
+Bot runs on `node.js`
+
+## How to Run
+
+ - ```node main.js```
+
+ - Copy QR code and run under `qrencode` - use `./qr` script
+ 
+ - Scan QR with whatsapp mobile as if connecting to whatsapp web
+
+## Scripts
+
+ - Messages are saved to `messages.log` and media files are saved to `media/` directory
+ - You can run `media/serve.py` for autoindexing of media files and then navigate `http://192.168.X.X:8000` to view media under browser, or run `updog`
+
+## Notes
+
+To run under *ARM*, when error shows up, substitute `chrome` executable causing problems in `node-modules` directory with the ARM compiled version of chromium-browser ( apt install chromium-browser ) under `/usr/bin/chromium-browser`.
