@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+rm qr.png
+qrencode $1 -o qr.png
+feh qr.png
