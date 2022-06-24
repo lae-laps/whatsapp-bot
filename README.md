@@ -1,6 +1,8 @@
 # whatsapp-bot
 
-Bot runs on `node.js`
+## What is this ?
+
+This is a whatsapp bot made in `node.js` with the `whatsapp-web.js` API which collects and stores all the incoming content to a whatsapp account to be able to inspect it
 
 ## How to Run
 
