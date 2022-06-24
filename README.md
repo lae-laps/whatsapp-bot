@@ -18,6 +18,6 @@ This is a whatsapp bot made in `node.js` with the `whatsapp-web.js` API which co
  - You can run `media/serve.py` for autoindexing of media files and then navigate `http://192.168.X.X:8000` to view media under browser, or run `updog`
  - You can run `media/clean-videos.py` to delete all existing videos under `media/` directory if they are taking too much space and are not important
 
-## Notes
+## Running under ARM ( RaspberryPi included )
 
 To run under *ARM*, when error shows up, substitute `chrome` executable causing problems in `node-modules` directory with the ARM compiled version of chromium-browser ( apt install chromium-browser ) under `/usr/bin/chromium-browser`.
