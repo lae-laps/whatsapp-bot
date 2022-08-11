@@ -80,13 +80,15 @@ client.on('message', async msg => {
         }
     }
 
-    /*if (sender == "Diego") {
-        msg.reply('callate pendejo no das risa');
+    /*if (sender == "username_you_want_to_catalog") {
+        msg.reply("special response message");
     } 
 
+	// basic ping bot
     if (msg.body == 'ping') {
 	msg.reply('pong');
     } */
+	    
     }
 });
 
