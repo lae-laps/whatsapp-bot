@@ -1,6 +1,6 @@
 #!/usr/bin/node
 
-/* whatsapp-bot made by laelaps */
+/* whatsapp-bot */
 
 // Config
 
